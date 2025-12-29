@@ -1,0 +1,1 @@
+hello this file content generate by app.js using fs.writeFileSyncythis content updated by appendFileSync recently created
