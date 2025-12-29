@@ -1,0 +1,1 @@
+console.log("Now second file of code print the another string")
