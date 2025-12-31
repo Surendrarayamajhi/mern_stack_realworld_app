@@ -19,7 +19,8 @@ app.get("/example",(req, res, next) =>{
 // });
 app.post("/example",(req, res, next) =>{
     let {name, email} = req.body;
-    console.log(name, email);
+    console.log(name, email);  
+     
     res.send("This is an example response");
 });
 
