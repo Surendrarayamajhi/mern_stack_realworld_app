@@ -53,6 +53,35 @@ app.get("/users/:userId", (req, res) =>{
     res.send("UserId :" + userId + " Details..");
 });
 
+
+
+/////////////express Sub Route///////////////////////
+const admin = express.Router();
+const student = express.Router();
+app.use("/admin", admin);
+app.use("/student", student);
+
+
+admin.get("/home", (req, res, next) => {
+    console.log(req.baseUrl);
+    console.log(req.originalUrl);
+    console.log(req.path);
+    res.send("Admin Home page");
+});
+
+student.get("/home", (req, res, next) => {
+    console.log(req.baseUrl);
+    console.log(req.originalUrl);
+    console.log(req.path);
+    res.send("Student Home Page")
+})
+
+app.get("/home", (req, res, next) => {
+    console.log(req.baseUrl);
+    console.log(req.originalUrl);
+    console.log(req.path);
+    res.send("Website Home Page")
+})
 app.listen(8000, ()=>{
     console.log("Server is running on port:8000");
 });
