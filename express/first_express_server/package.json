@@ -1,9 +1,9 @@
 {
-  "name": "express_pro",
+  "name": "express_server",
   "version": "1.0.0",
-  "description": "",
+  "description": "first express server",
   "license": "ISC",
-  "author": "",
+  "author": "suren",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
