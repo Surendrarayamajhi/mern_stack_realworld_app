@@ -49,7 +49,7 @@ app.get("/users", (req, res) =>{
 // second one is passing dynamic route with the help of params
 app.get("/users/:userId", (req, res) =>{
     const {userId} = req.params;
-    console.log(userId);
+    console.log(req.query)
     res.send("UserId :" + userId + " Details..");
 });
 
