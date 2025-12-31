@@ -104,7 +104,7 @@ _Our curriculum goes beyond typical Nodejs, Express and React tutorials, as we c
 ### Are there any course requirements or prerequisites?
 1. Basic of JavaScript
 1. General knowledge of how the web works is recommended but not a must-have
-1. Absolutely no understanding of MERN stack or full-stack development is required, I take you from beginner to intermediate developer
+1. Absolutely no understanding of MERN stack or full-stack development is required, I take  you from beginner to intermediate developer
 
 #### Who this course is for:
 * Everyone who's interested in building modern, scalable and high-performing web applications
